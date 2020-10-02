@@ -14,6 +14,9 @@
 ' KNN_DTC_RFC' = Multiple Tree, Random Forest, Bag/Boost, etc..
 ```
 
+## Presentation Link
+https://docs.google.com/presentation/d/1G4hcbbq7fX-1cvwU-4ap998n0EXK789XRe8zBRkIajE/edit?usp=sharing
+
 ## Introduction
 
 The goal of this project is to provide actionable feedback to a Major Telecom company regarding the optimization / minimization of Customer churn. With this goal in mind, I set out to analyze relevant data in order to better understand the market, and what features lead to an increase chance of a customer churning. From Kaggle, I was able to obtain the IBM Customer Retention Dataset, which includes over 8000 observations pertaining to telecom customers and their respective churn-status.
