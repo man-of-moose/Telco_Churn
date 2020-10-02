@@ -65,7 +65,7 @@ Dataset consisted of 3 continous and 17 categorical predictors.
 
 #### Tenure Strongly Correlated with Churn Rate
 
-![Image](pictures/Tenure vs Churn.png?raw=true)
+![Image](pictures/Tenure_vs_Churn.png?raw=true)
 
 
 Recommendations:
