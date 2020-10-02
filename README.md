@@ -6,6 +6,13 @@
 #### Sources:
 - IBM Customer Retention Dataset, sourced from Kaggle
 
+#### File Guide:
+
+```
+'telco_churn' = Data Cleaning and EDA and Hypothesis Testing
+'logreg_models' = Multiple Logistic Regressions
+' KNN_DTC_RFC' = Multiple Tree, Random Forest, Bag/Boost, etc..
+```
 
 ## Introduction
 
@@ -40,7 +47,6 @@ imblearn
 
 ```
 
-
 ## EDA
 
 Dataset consisted of 3 continous and 17 categorical predictors.
@@ -48,6 +54,18 @@ Dataset consisted of 3 continous and 17 categorical predictors.
 ##### High Correlation between "Services" features
 
 ![Image](pictures/Heatmap.png?raw=true)
+
+#### Certain Features Strongly Correlated with Churn Rate
+
+![Image](pictures/InternetService1.png?raw=true)
+
+![Image](pictures/SeniorCitizen1.png?raw=true)
+
+![Image](pictures/Contract1.png?raw=true)
+
+#### Tenure Strongly Correlated with Churn Rate
+
+![Image](pictures/Tenure vs Churn.png?raw=true)
 
 
 Recommendations:
