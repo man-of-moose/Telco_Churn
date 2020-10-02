@@ -67,29 +67,37 @@ Dataset consisted of 3 continous and 17 categorical predictors.
 
 ![Image](pictures/Tenure_vs_Churn.png?raw=true)
 
+### Best Model: Logistic Regression, Upsampled, Best Features
+
+![Image](pictures/feature_importance_best.png?raw=true)
+
+![Image](pictures/confusion_matrix_best.png?raw=true)
+
 
 Recommendations:
 
-Competition:
-- Investigate the operations of production companies such as Universal Pictures and Warner Brothers to optimize your movie production output 
-- Focus on developing large franchises like those owned by Marvel and Lucasfilms in order to maximize total revenue at the box office
+Upsell Contracts
+- 2 Year Contracts contribute the most to prolonged subscription
 
-Genres:
-- Avoid genres like Drama, Comedy, and Thriller as these are highly saturated
-- Focus on developing Fantasy, Adventure, and Animation movies as these return the highest profit
+Fiber Optic Service
+- Improve performance of Fiber Optic service to retain customers
 
-Release Month:
-- Avoid releasing films in “Dump Months” such as September, as you will have increased competition.
+Reduce Usge of eChecks:
+- Usage of eChecks increases churn rate
 
-Runtime:
-- Based on our analysis, the typical Fantasy, Animation, and Adventure genres are typically 90-100 minutes in duration.
+Sell Cheap First
+- Increase stickiness, slowly. Customers with more tenure will be more willing to accept pricey services
+
+Reduce Paperless Billing
+- Usage of Paperless Billing increases change of churn
+
+TechSupport, Online Security
+- Lack of TechSupport or OnlineSecurity increases churn - try to sell these services first
 
 
 
 ## Future Analysis
 
-1. Retrieve data from social media sources (Twitter, Reddit, Facebook, etc) in order to measure the effectiveness of social media marketing on movie success
-
-2. Retrieve data from online streaming services such as Netflix and Hulu in order to focus on further expansion to online markets
-
-3. Include Production Countries data (from TMDB) in our analysis in order to assist Microsoft in foreign market expansion
+1. Identify additional data sources to include in the analysis
+2. Continue to create new features
+3. Additional experimentation with LBGM
